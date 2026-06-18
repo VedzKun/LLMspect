@@ -1,0 +1,6 @@
+{
+    "target": "http://localhost:8000/chat",
+    "scan_time": "20260618_222959",
+    "total_findings": 0,
+    "findings": []
+}
