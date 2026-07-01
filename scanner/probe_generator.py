@@ -3,8 +3,8 @@ from pathlib import Path
 
 
 class ProbeGenerator:
-    def __init__(self):
-        self.payload_dir = Path("payloads")
+    def __init__(self, payload_dir="payloads"):
+        self.payload_dir = Path(payload_dir)
 
     def load_payloads(self):
         payloads = []
